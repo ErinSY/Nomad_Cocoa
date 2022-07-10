@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+  </head>
+  <body>
+    <h1>Creat An Account</h1>
+    <form action="join.php" method="post">
+      <label for="fname"><strong>First name</strong></label>
+      <input required placeholder="First name" id="fname" type="text" /> <br />
+
+      <label for="lname"><strong>Last name</strong></label>
+      <input required placeholder="Last name" id="lname" type="text" /> <br />
+
+      <label for="em"><strong>Email</strong></label>
+      <input required placeholder="Email" id="em" type="email" /> <br />
+
+      <label for="username"><strong>Username</strong></label>
+      <input required placeholder="User name" id="username" type="text" />
+      <br />
+
+      <label for="pw"><strong>Password</strong></label>
+      <input
+        required
+        minlength="10"
+        placeholder="Password"
+        id="pw"
+        type="password"
+      />
+      <br />
+
+      <label for="bDay"><strong>Birth date</strong></label>
+      <input required id="bDay" type="date" /> <br />
+
+      <label for="feeling"><strong>How Happy are you?</strong></label>
+      <input required id="feeling" type="range" /> <br />
+
+      <label for="fcolor"><strong>What is your fav. color?</strong></label>
+      <input required id="fcolor" type="color" /> <br />
+      <input required type="submit" value="Creat Account" />
+    </form>
+  </body>
+</html>

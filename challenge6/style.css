@@ -1,0 +1,55 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.inner{
+  width:310px;
+  height:700px;
+  padding:50px 30px 15px 30px;
+  display: flex;
+  flex-direction: column;
+  position:relative
+
+
+
+}
+header{
+  
+  height:15%;
+  background-color: rgb(236, 236, 56);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+  
+}
+.searchBox{
+  background-color: aliceblue;
+  width: 80%;
+  height: 50px;
+  border-radius: 25px;
+  align-self: center;
+  position: absolute;
+  top: 17%;
+  border-style: none;  
+  padding:10px;
+
+}
+.searchBox::placeholder{
+  color: gray
+}
+
+span{
+  font-size: 2rem;
+  
+}
+main{
+  width:100vw;
+  height:85%;
+
+}
+
